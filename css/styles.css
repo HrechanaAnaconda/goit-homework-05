@@ -496,7 +496,6 @@ main {
 .footer-social-title {
   margin-bottom: 16px;
   color: #ffffff;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -527,6 +526,63 @@ main {
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
+
+.subscribe-container {
+  margin-left: 80px;
+}
+
+.subscribe-input-field {
+  min-width: 258px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #2e2f42;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-input-field::placeholder {
+  color: #fff;
+}
+
+.subscribe-input-field:focus {
+  outline: transparent;
+}
+
+.subscribe-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  margin-left: 24px;
+  border: none;
+  border-radius: 4px;
+  background: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
 /* ------------ Backdrop ------------ */
 .backdrop {
   position: fixed;
