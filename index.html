@@ -663,6 +663,15 @@
               </li>
             </ul>
           </div>
+          <div class="subscribe-container">
+            <p>Subscribe</p>
+            <input
+              class="form-input-field"
+              type="email"
+              id="user-email"
+              name="user_email"
+            />
+          </div>
         </div>
       </footer>
 
@@ -679,11 +688,9 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-
           <p class="form-description">
             Leave your contacts and we will call you back
           </p>
-
           <form class="form">
             <div class="form-field-wrapper">
               <label for="user-name" class="form-field-label">Name</label>
@@ -706,7 +713,6 @@
                 </svg>
               </div>
             </div>
-
             <div class="form-field-wrapper">
               <label for="user-phone" class="form-field-label">Phone</label>
               <div class="form-input-wrapper">
@@ -729,7 +735,6 @@
                 </svg>
               </div>
             </div>
-
             <div class="form-field-wrapper">
               <label for="user-email" class="form-field-label">Email</label>
               <div class="form-input-wrapper">
@@ -750,8 +755,7 @@
                 </svg>
               </div>
             </div>
-
-            <div class="form-field-wrapper">
+            <div class="form-comment-wrapper">
               <label for="user-comment" class="form-field-label">Comment</label>
               <div class="form-input-wrapper">
                 <textarea
@@ -762,10 +766,9 @@
                 ></textarea>
               </div>
             </div>
-
             <div class="form-checkbox-wrapper">
               <input
-                class="form-checkbox"
+                class="form-checkbox visual-hidden"
                 type="checkbox"
                 name="checkbox_privacy_policy"
                 id="checkbox-privacy-policy"
@@ -773,11 +776,19 @@
                 required
               />
               <label for="checkbox-privacy-policy" class="form-checkbox-label"
+                ><span class="own-form-checkbox">
+                  <svg
+                    class="own-form-checkbox-icon"
+                    width="10"
+                    height="8"
+                    aria-label="checkbox icon"
+                  >
+                    <use href="./images/icons.svg#icon-checkbox"></use>
+                  </svg> </span
                 >I accept the terms and conditions of the
                 <a class="form-privacy-link" href="">Privacy Policy</a>
               </label>
             </div>
-
             <button class="form-submit-btn" type="submit">Send</button>
           </form>
         </div>
