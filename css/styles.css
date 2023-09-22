@@ -538,19 +538,10 @@ main {
   gap: 24px;
 }
 
-.subscribe-form-label {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .subscribe-input-field {
   min-width: 264px;
   height: 40px;
   padding-left: 16px;
-  margin-top: 16px;
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 4px;
